@@ -1,0 +1,6 @@
+mkdir "semester 3"
+cd "semester 3"
+mkdir "nama matkul"
+ls
+nano nama_file.txt
+more nama_file.txt

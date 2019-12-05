@@ -1,0 +1,9 @@
+sudo adduser nama_user
+sudo addgroup nama_group
+sudo adduser nama_user nama_group
+su nama_user
+nano nama_file.sh
+sudo chown nama_user nama_file.sh
+sudo chgrp nama_group nama_file.sh
+sudo chmod 664 nama_file1.sh
+sudo chmod 700 nama_file2.sh
