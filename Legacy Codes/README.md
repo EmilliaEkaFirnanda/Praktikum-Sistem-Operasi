@@ -1,1 +1,1 @@
-Kumpulan kode milik pribadi dari Praktikum Sistem Operasi Teknik Informatika UPNVJT 2019 
+Kumpulan kode milik pribadi dari Praktikum Sistem Operasi Teknik Informatika UPNVJT 2019
