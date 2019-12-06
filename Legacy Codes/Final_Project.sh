@@ -24,7 +24,7 @@ manipulasi(){
     echo "---penjelasan---"
     echo "*hak akses untuk owner, group, dan other"
     echo "*r = 4 (read-mengizinkan membaca berkas)"
-    echo "*w = 2 (write0-mengizinkan mengedit berkas)"
+    echo "*w = 2 (write-mengizinkan mengedit berkas)"
     echo "*x = 1 (excutable-mengizinkan mengeksekusi berkas binary)"
     echo "masukkan angkanya : "
     read angka
