@@ -51,4 +51,4 @@ if _name_ == '_main_':
     
 print("\nSekuensial", sekuensial_akhir-sekuensial_awal, "detik")
 print("multiprocessing.process", process_akhir-process_awal, "detik")
-print("multiprocessing.pool", pool_akhir-pool_awal, "detik")
+print("multiprocessing.pool", pool_akhir-pool_awal, "detik") 
