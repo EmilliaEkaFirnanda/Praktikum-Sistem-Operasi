@@ -13,7 +13,7 @@ input(){
         read nama_temp
         echo -n "Masukkan Jurusan : "
         read jurusan_temp
-                               echo -n "Masukkan Fakultas : "
+        echo -n "Masukkan Fakultas : "
         read fakultas_temp
 
         for npm_cari in ${npm[*]}
@@ -31,7 +31,7 @@ input(){
             npm[$i]=$npm_temp
             nama[$i]=$nama_temp
             jurusan[$i]=$jurusan_temp
-                                              fakultas[$i]=$fakultas_temp
+            fakultas[$i]=$fakultas_temp
             i=$i+1
             n=$n+1
         fi
@@ -48,7 +48,7 @@ view(){
             echo -e "NPM = ${npm[$i]}"
             echo -e "Nama = ${nama[$i]}"
             echo -e "Jurusan = ${jurusan[$i]}"
-                                               echo -e "Fakultas = ${fakultas[$i]}"
+            echo -e "Fakultas = ${fakultas[$i]}"
        done
 }
 
@@ -75,8 +75,8 @@ update(){
             read nama_temp
             echo -n "Masukkan Jurusan : "
             read jurusan_temp
-                                              echo -n "Masukkan Fakultas : "
-                                              read fakultas_temp
+            echo -n "Masukkan Fakultas : "
+            read fakultas_temp
 
             for npm_cari in ${npm[*]}
             do
@@ -85,7 +85,7 @@ update(){
                     flag=1
                     break
                 fi
-                                  done
+            done
             
         if [[ $flag == 1 ]]
         then
@@ -94,7 +94,7 @@ update(){
             npm[$i]=$npm_temp
             nama[$i]=$nama_temp
             jurusan[$i]=$jurusan_temp
-                                              fakultas[$i]=$fakultas_temp
+            fakultas[$i]=$fakultas_temp
         fi
         else
             echo "Data Tidak Ditemukan"
